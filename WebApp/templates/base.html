@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    {% block head %}
+    <title>Stock Trend Board {{TITLE}}</title>
+    {% endblock %}
+
+</head>
+<body bgcolor="white">
+  <font color="black">
+    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+        {% block footer %}
+	Remote Addr: {{ADDR}}<br>
+	Remote Client: {{CLIENT}} <br>
+        &copy; Copyright 2018 by Geralt of Rivia</a>.
+        {% endblock %}
+    </div>
+
+</body>
+</html>
+

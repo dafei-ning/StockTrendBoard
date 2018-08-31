@@ -1,0 +1,7 @@
+04/11/2018 01:23:46 AM,INFO,The program has started
+04/11/2018 01:23:48 AM,INFO,CREATE TABLE know_stocks (SYMBOL text,SHARES integer);
+04/11/2018 01:23:48 AM,INFO,SELECT * FROM know_stocks;
+04/11/2018 01:23:51 AM,DEBUG,Starting new HTTPS connection (1): finance.yahoo.com
+04/11/2018 01:23:52 AM,DEBUG,https://finance.yahoo.com:443 "GET /quote/AAPL/profile?p=AAPL HTTP/1.1" 200 None
+04/11/2018 01:23:52 AM,INFO,SELECT * FROM AAPL;
+04/11/2018 01:23:59 AM,INFO,The program is done

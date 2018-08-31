@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+    <center>
+      <h1>
+      Displaying Stock: {{USER}}<p>
+      </h1>
+<center>
+<table  border="1">
+{% for t in DATA %}
+    <tr>
+    {% for i in t %}
+        <td>{{ i }}</td>
+    {% endfor %}
+    </tr>
+{% endfor %}
+</table>
+<a href="/"> Return to Home Page</a>
+</center>
+{% endblock %}
